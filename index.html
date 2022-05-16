@@ -4,15 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Dashboard</title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
-    <!--MAIN-->
-    <main></main>
-    <!--FOOTER-->
-    <footer></footer>
+   <div class="container">
+    <form class="w-25 mt-5 mx-auto needs-validation" method="post" action="https://echo.htmlacademy.ru/" novalidate>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Isminggiz</label>
+            <input type="text" class="form-control" id="name" aria-describedby="namelHelp" name="user_name" autocomplete="off" minlength="2" required>
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please write valid name
+              </div>
+          </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label has-validation">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="user_email" required>
+          <div class="invalid-feedback">
+            Please select a valid email
+          </div>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <select class="form-select mb-3" aria-label="Default select example" name="faculty">
+            <option selected>Fakultetlar</option>
+            <option value="computer science">Computer Science</option>
+            <option value="economics">Economics</option>
+            <option value="medicine">Medicine</option>
+            <option value="aviation">Aviation</option>
+          </select>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+          <label class="form-check-label" for="invalidCheck">Tasdiqlang</label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+   </div>
+
+
+
+
+        <script src="./js/validation.js"></script>
 </body>
 </html>

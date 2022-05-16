@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap_mini_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhrorbek/bootstrap_mini_homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhrorbek/bootstrap_mini_homework/issues"
+  },
+  "homepage": "https://github.com/akhrorbek/bootstrap_mini_homework#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
